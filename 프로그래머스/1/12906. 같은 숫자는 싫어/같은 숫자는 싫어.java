@@ -11,6 +11,10 @@ public class Solution {
                 nums.add(arr[i]);
             }
         }
-        return nums.stream().mapToInt(i -> i).toArray();
+        int[] answer = new int[nums.size()];
+        for(int i=0; i<nums.size(); i++){
+            answer[i] = nums.get(i);
+        }
+        return answer;
     }
 }
