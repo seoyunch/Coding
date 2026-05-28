@@ -6,6 +6,7 @@ class Solution {
         int sum = 0;
         
         Arrays.sort(d);
+        // 백준허브가 이상하다
         
         for(int i=0; i<d.length; i++){
             sum += d[i];
